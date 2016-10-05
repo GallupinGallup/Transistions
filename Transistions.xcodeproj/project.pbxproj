@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5C3170691DA580D9000138DC /* DECA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3170681DA580D9000138DC /* DECA.swift */; };
+		5C31706B1DA584AD000138DC /* Family.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C31706A1DA584AD000138DC /* Family.swift */; };
+		5C31706D1DA58513000138DC /* EarlyLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C31706C1DA58513000138DC /* EarlyLife.swift */; };
 		5C4CAFE11DA2CFAD003469DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4CAFE01DA2CFAD003469DA /* AppDelegate.swift */; };
 		5C4CAFE31DA2CFAD003469DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4CAFE21DA2CFAD003469DA /* ViewController.swift */; };
 		5C4CAFE61DA2CFAD003469DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4CAFE41DA2CFAD003469DA /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		5C3170681DA580D9000138DC /* DECA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DECA.swift; path = ../DECA/DECA.swift; sourceTree = "<group>"; };
+		5C31706A1DA584AD000138DC /* Family.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Family.swift; path = ../Family/Family.swift; sourceTree = "<group>"; };
+		5C31706C1DA58513000138DC /* EarlyLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EarlyLife.swift; path = "../Early Life/EarlyLife.swift"; sourceTree = "<group>"; };
 		5C4CAFDD1DA2CFAD003469DA /* Transistions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transistions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C4CAFE01DA2CFAD003469DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C4CAFE21DA2CFAD003469DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,11 +105,13 @@
 		5C4CAFDF1DA2CFAD003469DA /* Transistions */ = {
 			isa = PBXGroup;
 			children = (
-				5C3170681DA580D9000138DC /* DECA.swift */,
-				5C4CAFE01DA2CFAD003469DA /* AppDelegate.swift */,
+				5C31706C1DA58513000138DC /* EarlyLife.swift */,
+				5C31706A1DA584AD000138DC /* Family.swift */,
 				5C4CAFE21DA2CFAD003469DA /* ViewController.swift */,
-				5C4CAFE41DA2CFAD003469DA /* Main.storyboard */,
+				5C3170681DA580D9000138DC /* DECA.swift */,
 				5C4CB00E1DA2D2FE003469DA /* Swimming.swift */,
+				5C4CAFE01DA2CFAD003469DA /* AppDelegate.swift */,
+				5C4CAFE41DA2CFAD003469DA /* Main.storyboard */,
 				5C4CAFE71DA2CFAD003469DA /* Assets.xcassets */,
 				5C4CAFE91DA2CFAD003469DA /* LaunchScreen.storyboard */,
 				5C4CAFEC1DA2CFAD003469DA /* Info.plist */,
@@ -262,10 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C31706B1DA584AD000138DC /* Family.swift in Sources */,
 				5C4CAFE31DA2CFAD003469DA /* ViewController.swift in Sources */,
 				5C4CB00F1DA2D2FE003469DA /* Swimming.swift in Sources */,
 				5C3170691DA580D9000138DC /* DECA.swift in Sources */,
 				5C4CAFE11DA2CFAD003469DA /* AppDelegate.swift in Sources */,
+				5C31706D1DA58513000138DC /* EarlyLife.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

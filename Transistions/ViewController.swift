@@ -26,5 +26,4 @@ class ViewController: UIViewController
     {
         performSegueWithIdentifier("toDECAFromMain", sender:sender)
     }
-    
 }
