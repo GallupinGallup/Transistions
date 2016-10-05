@@ -23,7 +23,7 @@
                                 <state key="normal" title="DECA"/>
                                 <connections>
                                     <action selector="SwitchScreenButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jCW-vW-2N8"/>
-                                    <segue destination="vas-ab-bj1" kind="show" id="l6u-ed-igd"/>
+                                    <segue destination="vas-ab-bj1" kind="show" identifier="toDECAFromMain" id="l6u-ed-igd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jz0-Ec-yjm">
@@ -42,7 +42,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efE-kN-OqO">
                                 <rect key="frame" x="405" y="367" width="75" height="30"/>
-                                <state key="normal" title="Swimming"/>
+                                <state key="normal" title="Early Life"/>
                                 <connections>
                                     <segue destination="MG6-aG-XLr" kind="show" id="MFr-tZ-H5g"/>
                                 </connections>
@@ -67,16 +67,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LIr-Uf-8Xb">
-                                <rect key="frame" x="180" y="363" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Substatute" translatesAutoresizingMaskIntoConstraints="NO" id="LIr-Uf-8Xb">
+                                <rect key="frame" x="180" y="339" width="240" height="152"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LC2-52-46X">
-                                <rect key="frame" x="501" y="542" width="46" height="30"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="aTL-jV-zP8"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4mb-9g-BRU">
                                 <rect key="frame" x="140" y="98" width="321" height="217"/>
                                 <string key="text">I am in one sport that I competes in and that is swimming. I have been on the Corner Canyon swim team for 3 years and during the summer of 2016 he joined a summer competitive swim at Peperwood. </string>
@@ -90,12 +83,19 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I couldn't finde any pictures of this so I just go this picture." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gA0-Cb-Tgo">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I couldn't find any pictures of this so I just go this picture." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gA0-Cb-Tgo">
                                 <rect key="frame" x="75" y="508" width="451" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LC2-52-46X">
+                                <rect key="frame" x="534" y="550" width="46" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="aTL-jV-zP8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.74565972222222221" green="0.38484974891315671" blue="0.72328273384623165" alpha="0.60999999999999999" colorSpace="calibratedRGB"/>
                     </view>
@@ -104,10 +104,10 @@
             </objects>
             <point key="canvasLocation" x="1278" y="134"/>
         </scene>
-        <!--View Controller-->
+        <!--Family-->
         <scene sceneID="fXf-bN-OhU">
             <objects>
-                <viewController id="PaY-Co-3fV" sceneMemberID="viewController">
+                <viewController id="PaY-Co-3fV" userLabel="Family" customClass="Family" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bNT-ce-tZV"/>
                         <viewControllerLayoutGuide type="bottom" id="M6P-2m-XZU"/>
@@ -115,6 +115,15 @@
                     <view key="view" contentMode="scaleToFill" id="gle-Gw-40f">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pI9-M2-3jp">
+                                <rect key="frame" x="534" y="550" width="46" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="ilq-qj-Q0f"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -122,10 +131,10 @@
             </objects>
             <point key="canvasLocation" x="1975" y="135"/>
         </scene>
-        <!--View Controller-->
+        <!--DECA-->
         <scene sceneID="DpC-ih-MxH">
             <objects>
-                <viewController id="vas-ab-bj1" sceneMemberID="viewController">
+                <viewController id="vas-ab-bj1" userLabel="DECA" customClass="Deca" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Bcd-ID-af6"/>
                         <viewControllerLayoutGuide type="bottom" id="pSX-QJ-Fdy"/>
@@ -133,6 +142,15 @@
                     <view key="view" contentMode="scaleToFill" id="0x4-Ib-aeS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCz-Rt-R6p">
+                                <rect key="frame" x="534" y="550" width="46" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Wr5-gC-xzh"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -140,17 +158,26 @@
             </objects>
             <point key="canvasLocation" x="1272" y="848"/>
         </scene>
-        <!--View Controller-->
+        <!--Early Life-->
         <scene sceneID="5la-Uh-s1a">
             <objects>
-                <viewController id="MG6-aG-XLr" sceneMemberID="viewController">
+                <viewController id="MG6-aG-XLr" userLabel="Early Life" customClass="Early" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LAg-9h-xTJ"/>
                         <viewControllerLayoutGuide type="bottom" id="Yea-eo-q1F"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="O9d-Xg-OeM">
+                    <view key="view" contentMode="scaleToFill" id="O9d-Xg-OeM" customClass="Life">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRw-pb-eTN">
+                                <rect key="frame" x="534" y="562" width="46" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="SLM-ww-0dw"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -159,4 +186,10 @@
             <point key="canvasLocation" x="1967" y="839"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Substatute" width="3872" height="2592"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Wr5-gC-xzh"/>
+    </inferredMetricsTieBreakers>
 </document>

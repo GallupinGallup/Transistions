@@ -24,9 +24,7 @@ class ViewController: UIViewController
     }
     @IBAction func SwitchScreenButton1(sender: UIButton)
     {
-        performSegueWithIdentifier("toSwimmingFromMain", sender:sender)
+        performSegueWithIdentifier("toDECAFromMain", sender:sender)
     }
-
-
+    
 }
-
