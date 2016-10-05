@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UpdatedViewController : UIViewController
+class Swimming : UIViewController
 {
     
 }

@@ -23,20 +23,29 @@
                                 <state key="normal" title="DECA"/>
                                 <connections>
                                     <action selector="SwitchScreenButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jCW-vW-2N8"/>
-                                    <segue destination="Z0a-SM-ufm" kind="show" identifier="toUpdatedFromMain" id="a2f-dI-i2x"/>
+                                    <segue destination="vas-ab-bj1" kind="show" id="l6u-ed-igd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jz0-Ec-yjm">
                                 <rect key="frame" x="405" y="149" width="75" height="30"/>
                                 <state key="normal" title="Family"/>
+                                <connections>
+                                    <segue destination="PaY-Co-3fV" kind="show" id="Y16-Gr-VAw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMW-UX-a0i">
                                 <rect key="frame" x="181" y="149" width="78" height="30"/>
                                 <state key="normal" title="Swimming"/>
+                                <connections>
+                                    <segue destination="Z0a-SM-ufm" kind="show" identifier="Swimming" id="X8m-hJ-TMc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efE-kN-OqO">
                                 <rect key="frame" x="405" y="367" width="75" height="30"/>
                                 <state key="normal" title="Swimming"/>
+                                <connections>
+                                    <segue destination="MG6-aG-XLr" kind="show" id="MFr-tZ-H5g"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.74565972222222221" green="0.68312058703047851" blue="0.37179294590270345" alpha="0.60999999999999999" colorSpace="calibratedRGB"/>
@@ -49,7 +58,7 @@
         <!--Updated View Controller-->
         <scene sceneID="55M-fA-oMi">
             <objects>
-                <viewController id="Z0a-SM-ufm" userLabel="Updated View Controller" customClass="UpdatedViewController" customModule="Transistions" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Z0a-SM-ufm" userLabel="Updated View Controller" customClass="Swimming" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="a5J-Rp-0fV"/>
                         <viewControllerLayoutGuide type="bottom" id="rmm-AF-ib5"/>
@@ -58,12 +67,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="061-uf-ar7">
-                                <rect key="frame" x="180" y="370" width="240" height="128"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LIr-Uf-8Xb">
-                                <rect key="frame" x="180" y="78" width="240" height="128"/>
+                                <rect key="frame" x="180" y="363" width="240" height="128"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LC2-52-46X">
+                                <rect key="frame" x="501" y="542" width="46" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="aTL-jV-zP8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4mb-9g-BRU">
+                                <rect key="frame" x="140" y="98" width="321" height="217"/>
+                                <string key="text">I am in one sport that I competes in and that is swimming. I have been on the Corner Canyon swim team for 3 years and during the summer of 2016 he joined a summer competitive swim at Peperwood. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I was taught to swim by Bekey Thomas. I took 4 years of lessons frome her." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nNX-To-VVW">
+                                <rect key="frame" x="166" y="222" width="268" height="156"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I couldn't finde any pictures of this so I just go this picture." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gA0-Cb-Tgo">
+                                <rect key="frame" x="75" y="508" width="451" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.74565972222222221" green="0.38484974891315671" blue="0.72328273384623165" alpha="0.60999999999999999" colorSpace="calibratedRGB"/>
                     </view>

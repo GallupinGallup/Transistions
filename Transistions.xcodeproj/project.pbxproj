@@ -14,7 +14,7 @@
 		5C4CAFEB1DA2CFAD003469DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C4CAFE91DA2CFAD003469DA /* LaunchScreen.storyboard */; };
 		5C4CAFF61DA2CFAD003469DA /* TransistionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4CAFF51DA2CFAD003469DA /* TransistionsTests.swift */; };
 		5C4CB0011DA2CFAD003469DA /* TransistionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4CB0001DA2CFAD003469DA /* TransistionsUITests.swift */; };
-		5C4CB00F1DA2D2FE003469DA /* UpdatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4CB00E1DA2D2FE003469DA /* UpdatedViewController.swift */; };
+		5C4CB00F1DA2D2FE003469DA /* Swimming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4CB00E1DA2D2FE003469DA /* Swimming.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		5C4CAFFC1DA2CFAD003469DA /* TransistionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransistionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C4CB0001DA2CFAD003469DA /* TransistionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransistionsUITests.swift; sourceTree = "<group>"; };
 		5C4CB0021DA2CFAD003469DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C4CB00E1DA2D2FE003469DA /* UpdatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpdatedViewController.swift; path = Controller/UpdatedViewController.swift; sourceTree = "<group>"; };
+		5C4CB00E1DA2D2FE003469DA /* Swimming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Swimming.swift; path = Controller/Swimming.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 				5C4CAFE01DA2CFAD003469DA /* AppDelegate.swift */,
 				5C4CAFE21DA2CFAD003469DA /* ViewController.swift */,
 				5C4CAFE41DA2CFAD003469DA /* Main.storyboard */,
-				5C4CB00E1DA2D2FE003469DA /* UpdatedViewController.swift */,
+				5C4CB00E1DA2D2FE003469DA /* Swimming.swift */,
 				5C4CAFE71DA2CFAD003469DA /* Assets.xcassets */,
 				5C4CAFE91DA2CFAD003469DA /* LaunchScreen.storyboard */,
 				5C4CAFEC1DA2CFAD003469DA /* Info.plist */,
@@ -260,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C4CAFE31DA2CFAD003469DA /* ViewController.swift in Sources */,
-				5C4CB00F1DA2D2FE003469DA /* UpdatedViewController.swift in Sources */,
+				5C4CB00F1DA2D2FE003469DA /* Swimming.swift in Sources */,
 				5C4CAFE11DA2CFAD003469DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +488,7 @@
 				5C4CB0071DA2CFAD003469DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C4CB0081DA2CFAD003469DA /* Build configuration list for PBXNativeTarget "TransistionsTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +497,7 @@
 				5C4CB00A1DA2CFAD003469DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C4CB00B1DA2CFAD003469DA /* Build configuration list for PBXNativeTarget "TransistionsUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +506,7 @@
 				5C4CB00D1DA2CFAD003469DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
