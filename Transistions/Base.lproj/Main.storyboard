@@ -123,6 +123,16 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="ilq-qj-Q0f"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y0h-Gh-lWl">
+                                <rect key="frame" x="88" y="57" width="423" height="239"/>
+                                <mutableString key="text">I have a family of 6 people including two brothers and one sister. My younger sister, Allison Kae Gallup is interested in acting and is very very good at piano. She is 13 Years of age and has her next birthday on April 28 2017. My older brother, Ethan Robbert Gallup, has been called to serve an LDS mission in Porto Alegre Brazil.  He has been in  Porto Alegre for 6 weeks now. He is currently 18 years of age and has next birth day on July 5 2017. My youngest sibling (brother),Joshua Carter Gallup, is currently a green belt in Taekwondo and takes many climbing classes.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_35352" translatesAutoresizingMaskIntoConstraints="NO" id="XMK-Dz-8ma">
+                                <rect key="frame" x="88" y="317" width="423" height="263"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.38001277269387246" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -150,6 +160,16 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="Wr5-gC-xzh"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifx-kc-df7">
+                                <rect key="frame" x="20" y="28" width="560" height="214"/>
+                                <mutableString key="text">During my sophomore year of high school, I competed with his schools DECA chapter. I wrote an 11-page business plan about a online customizable computer website that makes it easy for anyone to customize their computer. All they have to know is what they will be using it for and some other grading systems such as: on a scale from one to ten how fast would you like your computer? Or What is your budget? It uses a complex algorithm to create a computer with in your budget. With this plan I competed in state got 1st place and made it to nationals. There I competed with no success.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DECA_Medals" translatesAutoresizingMaskIntoConstraints="NO" id="P4C-HE-IS7">
+                                <rect key="frame" x="180" y="250" width="240" height="276"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.038372001262626299" green="0.038372001262626299" blue="0.038372001262626299" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -187,9 +207,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="DECA_Medals" width="2448" height="3264"/>
+        <image name="IMG_35352" width="4096" height="2926"/>
         <image name="Substatute" width="3872" height="2592"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="SLM-ww-0dw"/>
+        <segue reference="aTL-jV-zP8"/>
     </inferredMetricsTieBreakers>
 </document>
