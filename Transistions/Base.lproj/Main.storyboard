@@ -33,18 +33,21 @@
                                     <segue destination="PaY-Co-3fV" kind="show" id="Y16-Gr-VAw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMW-UX-a0i">
-                                <rect key="frame" x="181" y="149" width="78" height="30"/>
-                                <state key="normal" title="Swimming"/>
-                                <connections>
-                                    <segue destination="Z0a-SM-ufm" kind="show" identifier="Swimming" id="X8m-hJ-TMc"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efE-kN-OqO">
                                 <rect key="frame" x="405" y="367" width="75" height="30"/>
                                 <state key="normal" title="Early Life"/>
                                 <connections>
                                     <segue destination="MG6-aG-XLr" kind="show" id="MFr-tZ-H5g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMW-UX-a0i">
+                                <rect key="frame" x="181" y="149" width="78" height="30"/>
+                                <state key="normal" title="Swimming"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="46" y="149" width="78" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="Z0a-SM-ufm" kind="show" identifier="Swimming" id="X8m-hJ-TMc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -69,6 +72,9 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Substatute" translatesAutoresizingMaskIntoConstraints="NO" id="LIr-Uf-8Xb">
                                 <rect key="frame" x="180" y="339" width="240" height="152"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="80" y="343" width="240" height="152"/>
+                                </variation>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4mb-9g-BRU">
                                 <rect key="frame" x="140" y="98" width="321" height="217"/>
@@ -76,18 +82,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="40" y="58" width="321" height="217"/>
+                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I was taught to swim by Bekey Thomas. I took 4 years of lessons frome her." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nNX-To-VVW">
                                 <rect key="frame" x="166" y="222" width="268" height="156"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I couldn't find any pictures of this so I just go this picture." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gA0-Cb-Tgo">
-                                <rect key="frame" x="75" y="508" width="451" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="66" y="204" width="268" height="156"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LC2-52-46X">
                                 <rect key="frame" x="534" y="550" width="46" height="30"/>
@@ -96,13 +102,22 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="aTL-jV-zP8"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I couldn't find any pictures of this so I just go this picture." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gA0-Cb-Tgo">
+                                <rect key="frame" x="75" y="508" width="451" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="17" y="518" width="366" height="49"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.20975145854346988" green="0.33275521984669887" blue="1" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4bt-Xz-ESb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1278" y="134"/>
+            <point key="canvasLocation" x="1278" y="133.5"/>
         </scene>
         <!--Family-->
         <scene sceneID="fXf-bN-OhU">
@@ -125,13 +140,19 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y0h-Gh-lWl">
                                 <rect key="frame" x="88" y="57" width="423" height="239"/>
-                                <mutableString key="text">I have a family of 6 people including two brothers and one sister. My younger sister, Allison Kae Gallup is interested in acting and is very very good at piano. She is 13 Years of age and has her next birthday on April 28 2017. My older brother, Ethan Robbert Gallup, has been called to serve an LDS mission in Porto Alegre Brazil.  He has been in  Porto Alegre for 6 weeks now. He is currently 18 years of age and has next birth day on July 5 2017. My youngest sibling (brother),Joshua Carter Gallup, is currently a green belt in Taekwondo and takes many climbing classes.</mutableString>
+                                <string key="text">I have a family of 6 people including two brothers and one sister. My younger sister, Allison Kae Gallup is interested in acting and is very very good at piano. She is 13 Years of age and has her next birthday on April 28 2017. My older brother, Ethan Robbert Gallup, has been called to serve an LDS mission in Porto Alegre Brazil.  He has been in  Porto Alegre for 6 weeks now. He is currently 18 years of age and has next birth day on July 5 2017. My youngest sibling (brother),Joshua Carter Gallup, is currently a green belt in Taekwondo and takes many climbing classes.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="46" width="400" height="268"/>
+                                </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_35352" translatesAutoresizingMaskIntoConstraints="NO" id="XMK-Dz-8ma">
                                 <rect key="frame" x="88" y="317" width="423" height="263"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="358" width="400" height="263"/>
+                                </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.38001277269387246" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -139,7 +160,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="diO-tA-W2z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1975" y="135"/>
+            <point key="canvasLocation" x="1974" y="135"/>
         </scene>
         <!--DECA-->
         <scene sceneID="DpC-ih-MxH">
@@ -162,7 +183,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifx-kc-df7">
                                 <rect key="frame" x="20" y="28" width="560" height="214"/>
-                                <mutableString key="text">During my sophomore year of high school, I competed with his schools DECA chapter. I wrote an 11-page business plan about a online customizable computer website that makes it easy for anyone to customize their computer. All they have to know is what they will be using it for and some other grading systems such as: on a scale from one to ten how fast would you like your computer? Or What is your budget? It uses a complex algorithm to create a computer with in your budget. With this plan I competed in state got 1st place and made it to nationals. There I competed with no success.</mutableString>
+                                <string key="text">During my sophomore year of high school, I competed with my schools DECA chapter. I wrote an 11-page business plan about a online customizable computer website that makes it easy for anyone to customize their computer. All they have to know is what they will be using it for and some other grading systems such as: on a scale from one to ten how fast would you like your computer? Or What is your budget? It uses a complex algorithm to create a computer with in your budget. With this plan I competed in state got 1st place and made it to nationals. There I competed with no success.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -212,6 +233,6 @@
         <image name="Substatute" width="3872" height="2592"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aTL-jV-zP8"/>
+        <segue reference="ilq-qj-Q0f"/>
     </inferredMetricsTieBreakers>
 </document>

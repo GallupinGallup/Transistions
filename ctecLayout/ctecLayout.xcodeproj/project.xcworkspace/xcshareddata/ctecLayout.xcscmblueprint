@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0B26960AD13C85EFE70750C6F2B09C49857AAC5B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0B26960AD13C85EFE70750C6F2B09C49857AAC5B" : 0,
+    "E2506516DF4C3129466C7CB90E567CF66E799193" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FE30C27B-50D3-4CCA-B460-31A10B95EDF9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0B26960AD13C85EFE70750C6F2B09C49857AAC5B" : "Transistions\/",
+    "E2506516DF4C3129466C7CB90E567CF66E799193" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ctecLayout",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ctecLayout\/ctecLayout.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GallupinGallup\/Transistions.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0B26960AD13C85EFE70750C6F2B09C49857AAC5B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GallupinGallup\/Playgrounds.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E2506516DF4C3129466C7CB90E567CF66E799193"
+    }
+  ]
+}
